@@ -27,13 +27,17 @@ html{
 
 aside{
     width: 20%;
+    /* height:100%; */
     
     /* debug */
     background-color: bisque;
     border: 1px solid black;
-    position: sticky;
-    top:0;
-    left: 0;
+    
+
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between ;
+
 }
 
 main{
