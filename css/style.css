@@ -162,3 +162,34 @@ header{
     font-weight: 800;
 }
 
+/* main-menu */
+
+#main-menu{
+    width: 100%;
+    padding: 7em 1em 1em 1em;
+    /* debug */
+    background-color:blanchedalmond;
+}
+
+#main-menu ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main-menu ul li{
+    margin-right: 1em;
+}
+
+#main-menu ul li:last-child{
+    margin-right:0;
+}
+
+#main-menu ul li:nth-last-child(5, ){
+    margin-right:3em;
+}
+
+
+
+
