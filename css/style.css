@@ -11,6 +11,15 @@ html{
 
 /* common */
 
+img{
+    width: 100%;
+}
+
+ul{
+    list-style: none;
+}
+
+/* layout */
 .wrapper{
     height: 100vh;
     width: 100%;
@@ -28,7 +37,6 @@ html{
 aside{
     width: 20%;
     /* height:100%; */
-    
     /* debug */
     background-color: bisque;
     border: 1px solid black;
@@ -46,11 +54,9 @@ main{
     background-color: azure;
     border: 1px solid black;
     overflow: auto;
-    /* position: relative;
-    right: 0;
-    top:0; */
 
 }
+
 .toolbar{
     height: calc(100px - 100vh);
     width: 100%;
@@ -58,3 +64,26 @@ main{
     /* debug */
     background-color: aqua;
 }
+
+/* sidebar */
+
+.top-sidebar{
+    padding: 1em 1.5em;
+
+    /* debyg */
+    width: 100%;
+}
+
+.spotify-logo img{
+    width: 70%;
+}
+
+.spotify-logo img:last-child{
+    display: none;
+}
+
+.sidebar-menu img{
+    width: 10%;
+}
+
+
