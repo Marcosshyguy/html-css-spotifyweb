@@ -1,6 +1,6 @@
 *{
     padding: 0;
-    margin: o;
+    margin: 0;
     box-sizing: border-box;
 }
 
@@ -20,5 +20,37 @@ html{
 }
 
 .main-container{
+    display: flex;
+    height: calc(100vh - 100px);
+    width: 100%;
+}
 
+aside{
+    width: 20%;
+    
+    /* debug */
+    background-color: bisque;
+    border: 1px solid black;
+    position: sticky;
+    top:0;
+    left: 0;
+}
+
+main{
+    width: 80%;
+    /* debug    */
+    background-color: azure;
+    border: 1px solid black;
+    overflow: auto;
+    /* position: relative;
+    right: 0;
+    top:0; */
+
+}
+.toolbar{
+    height: calc(100px - 100vh);
+    width: 100%;
+
+    /* debug */
+    background-color: aqua;
 }
