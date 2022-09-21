@@ -27,15 +27,15 @@ a{
 /* spacing */
 
 .pad-1{
-    padding: 1 rem;
+    padding: 1em;
 }
 
 .pad-2{
-    padding: 2 rem;
+    padding: 2em;
 }
 
 .pad-3{
-    padding: 3 rem;
+    padding: 3em;
 }
 
 .mgt-1{
@@ -175,7 +175,6 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 #main-menu ul li{
@@ -186,9 +185,22 @@ header{
     margin-right:0;
 }
 
-#main-menu ul li:nth-last-child(5, ){
-    margin-right:3em;
+/* recent */
+
+.row{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    gap:1.5rem;
 }
+
+.col{
+    width: calc(100% / 6 - 1.5rem);
+    text-align: center;
+}
+
+
+
 
 
 
