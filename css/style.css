@@ -141,6 +141,7 @@ main{
     width:var(--main-width) ;
     overflow: auto;
     background-color: var(--main-bg);
+    color: var(--font-grey);
     
 }
 
@@ -311,7 +312,36 @@ header{
     display:block
 }
 
+/* recent for-you popular section */
 
+.card figure{
+    position: relative;
+    transition: all 8s;
+    margin-bottom: 1em;
+}
+
+.card figure i{
+    position: absolute;
+    right:45%;
+    top: 45%;
+    transform: translatex(-50%), translateY(-50%);
+    transform: scale(2, 2);
+
+    color: white;
+
+    display: none;
+
+}
+
+.card figure:hover i{
+    display: block;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.card figure:hover img{
+    filter: brightness(40%);
+}
 
 
 /* popular */
