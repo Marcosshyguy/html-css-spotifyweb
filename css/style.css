@@ -133,8 +133,10 @@ main{
 
 /* sidebar */
 
-.top-sidebar{
+/* top sidebar */
 
+
+.top-sidebar{
     /* debug */
     width: 100%;
 }
@@ -147,8 +149,7 @@ main{
     display: none;
 }
 
-.sidebar-menu img,
-.user-profile img{
+.sidebar-menu img{
     width: 20%;
 }
 
@@ -165,13 +166,32 @@ main{
 }
 
 
-
-
 .add-playlist i{
     font-size: 3rem;
     margin-right: .5rem;
 }
 
+/* bottom sidebar */
+
+.app-install i{
+    display: inline-block;
+    padding: .2rem;
+    border:1px solid black;
+    border-radius: 50%;
+    margin-left:.5em;
+
+}
+
+.user-profile img{
+
+    border-radius: 50%;
+    margin-right: .5em;
+    /* debug */
+    background-color: beige;
+    width: 40px;
+    height: 40px;
+
+}
 /* main */
 
 /* header */
