@@ -97,6 +97,10 @@ a{
     align-items: center;
 }
 
+.space-bet{
+    justify-content: space-between;
+}
+
 .row{
     display: flex;
     justify-content: flex-start;
@@ -151,10 +155,7 @@ main{
 
     z-index: 2;
 
-    /* debug */
-    background-color: aqua;
 }
-
 /* sidebar */
 
 /* top sidebar */
@@ -226,16 +227,6 @@ main{
     height: 40px;
 }
 
-.top-sidebar .menu-search > *:hover,
-.top-sidebar .menu-library > *:hover,
-.top-sidebar .add-playlist:hover,
-.top-sidebar ul li:hover,
-.bottom-sidebar .app-install span:hover{
-    color: var(--font-hovering);
-    cursor: pointer;
-}
-
-
 /* main */
 
 /* header */
@@ -249,6 +240,7 @@ header{
     position:fixed;
     right:0;
     top:0;
+    z-index: 999;
 
     display: flex;
     justify-content: flex-end;
@@ -336,7 +328,7 @@ header{
 .card figure:hover i{
     display: block;
     cursor: pointer;
-    line-height: 1;
+
 }
 
 .card figure:hover img{
@@ -356,6 +348,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    background-color: var(--navbar-bg);
+    color: var(--font-grey);
     
     height: 100px;
     padding: 1em;
@@ -366,6 +361,38 @@ header{
     width: 250px;
 }
 
+.song{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.current-song{
+    display: flex;
+    align-items: center;
+}
+
+.current-song p{
+    margin-bottom: .2em;
+    text-align: center;
+}
+
+.bye{
+    width: 70px;
+    height: 70px;
+    object-fit: fill;
+    margin-right: 1em;
+}
+
+.favourite{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+
+
 .toolbar-main-keys{
     width: 40%;
     /* height: 100%; */
@@ -373,16 +400,15 @@ header{
     background-color:aqua ;
 }
 
-
-.song{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.current-song img{
-    width: 10%;
-    object-fit: cover;
+/* color change class wrap */
+.top-sidebar .menu-search > *:hover,
+.top-sidebar .menu-library > *:hover,
+.top-sidebar .add-playlist:hover,
+.top-sidebar ul li:hover,
+.bottom-sidebar .app-install span:hover,
+.favourite i:hover{
+    color: var(--font-hovering);
+    cursor: pointer;
 }
 
 
