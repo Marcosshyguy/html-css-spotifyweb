@@ -202,10 +202,25 @@ header{
 /* toolbar */
 .toolbar-row{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    
     height: 100px;
+    padding: 1em;
 }
+
+.song,
+.toolbar-setting-keys{
+    width: 250px;
+}
+
+.toolbar-main-keys{
+    width: 40%;
+    /* height: 100%; */
+    /* debug */
+    background-color:aqua ;
+}
+
 
 .song{
     display: flex;
