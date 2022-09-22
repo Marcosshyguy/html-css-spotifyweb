@@ -24,6 +24,19 @@
 /* mobile */
 @media screen and (max-width:600px){
 
+    /* sidebar */
+
+    aside{
+        width: 70px;
+    }
+
+    main,
+    header{
+        width: calc(100% - 70px);
+    }
+
+
+
     .spotify-logo img:last-child{
         display: inline-block
     }
