@@ -27,7 +27,7 @@
     /* layout */
 
     aside{
-        width: 70px;
+        width:var(--sidebar-size-mobile) ;
     }
 
     main,
