@@ -8,6 +8,11 @@
     #main-menu ul li{
         width: calc(100% / 4 - 2em);
     }
+/* main-menu */
+
+    #main-menu ul li:hover .underline{
+        display:none;
+    }
 }
 
 /* tablet */
