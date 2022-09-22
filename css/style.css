@@ -140,6 +140,18 @@ main{
     width: 20%;
 }
 
+/* .menu-home span{
+    line-height: 100%;
+    vertical-align: middle;
+    display: inline-block;
+} */
+/* .menu-home,
+.menu-search,
+.menu-library{
+    display: flex;
+    align-items: center;
+} */
+
 /* main */
 
 /* header */
