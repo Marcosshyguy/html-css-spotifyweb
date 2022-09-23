@@ -391,30 +391,83 @@ header{
     gap: 1em;
 }
 
-
+/* toolbar-main-keys */
 
 .toolbar-main-keys{
-    width: 40%;
+
+    /* debug */
+    width: 50%;
+    display: inline-block;
+
+    /* background-color: azure; */
 }
 
 .play-button{
     text-align: center;
-    width: 80%;
 }
 
 .play-button i{
     margin: 0 1em;
-    display: inline-block;
+    /* display: inline-block; */
 }
 
 .play-button i:nth-child(3){
-    margin: 0 2em;
+    margin: 0 1.5em;
     transform: scale(1.5, 1.5);
 }
 
 .play-button i:nth-child(3):hover{
     transform: scale(1.8,1.8);
+    cursor: pointer;
 }
+
+
+.song-duration{
+    width: 100%;
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+}
+
+.timebar{
+    width: 85%;
+    height: 5px;
+    border-radius: 5px;
+    
+    background-color: var(--font-grey);
+}
+
+.timebar-time-passed{
+    background-color: rgb(57, 73, 57);
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.timebar-green-circle{
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: white;
+    display: none;
+
+    transform: scale(2,2) translateX(-50%);
+    position: absolute;
+    left: 100%;
+
+}
+
+.timebar-time-passed:hover{
+    background-color: var(--font-hovering);
+}
+
+.timebar-time-passed:hover .timebar-green-circle{
+    display: block;
+}
+
 
 
 
