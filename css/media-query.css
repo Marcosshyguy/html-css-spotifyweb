@@ -24,6 +24,11 @@
     #main-menu ul li{
         width: calc(100% / 3 - 2em);
     }
+
+    /* toolbar */
+    .favourite{
+    flex-direction: column;
+    }
 }
 
 /* mobile */
