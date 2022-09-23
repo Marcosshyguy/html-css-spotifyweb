@@ -182,12 +182,16 @@ main{
     width: 20%;
 }
 
+.menu-search img,
+.menu-library img{
+    fill: grey;
+}
+
 .menu-home,
 .menu-search,
 .menu-library{
     display: flex;
     align-items: center;
-
 }
 
 
@@ -352,7 +356,7 @@ header{
     background-color: var(--navbar-bg);
     color: var(--font-grey);
     
-    height: 100px;
+    
     padding: 1em;
 }
 
