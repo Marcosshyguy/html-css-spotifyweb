@@ -430,7 +430,7 @@ header{
 }
 
 .timebar{
-    width: 85%;
+    width: 80%;
     height: 5px;
     border-radius: 5px;
     
@@ -482,7 +482,7 @@ header{
 .top-sidebar .add-playlist:hover,
 .top-sidebar ul li:hover,
 .bottom-sidebar .app-install span:hover,
-.favourite i:hover
+.favourite i:hover,
 .toolbar-audio-settings i:hover {
     color: var(--font-hovering);
     cursor: pointer;
