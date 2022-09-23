@@ -126,23 +126,19 @@ a{
 
 .main-container{
     display: flex;
-    height: var(--main-height);
+    height: calc(100% - 100px);
     width: 100%;
 }
 
 aside{
     width: var(--sidebar-size);
-    height:calc(100vh - 100px);
+    height:100%;
     background-color:black;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between ;
-
 }
 
 main{
     width:var(--main-width) ;
+    height: 100%;
     overflow: auto;
     background-color: var(--main-bg);
     color: var(--font-grey);
@@ -150,10 +146,10 @@ main{
 }
 
 #toolbar{
-    height: calc(100px - 100vh);
+    height: 100px;
     width: 100%;
-
-    z-index: 2;
+    position: relative;
+    z-index:8;
 
 }
 /* sidebar */
@@ -163,6 +159,9 @@ main{
 
 .top-sidebar{
     color: var(--font-grey);
+    height: calc(100% - 150px);
+    min-height: 250px;
+    overflow-y: hidden;
 }
 
 
@@ -205,6 +204,7 @@ main{
 
 .bottom-sidebar{
     color: var(--font-grey);
+    height: 150px;  
 }
 
 .user-profile{
