@@ -357,7 +357,7 @@ header{
 }
 
 .song,
-.toolbar-setting-keys{
+.toolbar-audio-settings{
     width: 250px;
 }
 
@@ -468,7 +468,9 @@ header{
     display: block;
 }
 
-
+.width50{
+    width: 50%;
+}
 
 
 
@@ -480,7 +482,8 @@ header{
 .top-sidebar .add-playlist:hover,
 .top-sidebar ul li:hover,
 .bottom-sidebar .app-install span:hover,
-.favourite i:hover{
+.favourite i:hover
+.toolbar-audio-settings i:hover {
     color: var(--font-hovering);
     cursor: pointer;
 }
