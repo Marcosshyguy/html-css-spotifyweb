@@ -14,10 +14,10 @@
     --font-grey:grey;
     --font-hovering:yellow;
     
-    --sidebar-size: 300px;
+    --sidebar-size: 200px;
     --sidebar-size-mobile: 70px;
     --header-height:90px;
-    --main-width:calc(100% - 300px);
+    --main-width:calc(100% - 200px);
     --navbar-height: calc(100px - 100vh);
     --main-height:calc(100vh - 100px);
     
@@ -134,6 +134,8 @@ aside{
     width: var(--sidebar-size);
     height:100%;
     background-color:black;
+
+    overflow: hidden;
 }
 
 main{
@@ -161,7 +163,6 @@ main{
     color: var(--font-grey);
     height: calc(100% - 150px);
     min-height: 250px;
-    overflow-y: hidden;
 }
 
 
@@ -284,6 +285,7 @@ header{
 
 #main-menu ul li{
     position: relative;
+    word-wrap: normal;
 }
 
 .underline{
